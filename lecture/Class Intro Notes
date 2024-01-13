@@ -1,0 +1,46 @@
+Technologies used in Web Apps
+
+- HTML for content
+- CSS for style
+- Front end JavaScript fot interactivity
+- HTTP and the client/server model
+- Server application logic
+- Databases
+- Hosting aka where does the server code run?
+
+
+Front End (client-side) Technologies
+
+Front end = client side
+Client = browser
+Front end is things that are run by a browser
+
+HTML - describes content of a page
+CSS - applies styles, colors, layout to a page
+JavaScript - interactivity on a page
+
+Vue.js is a JavaScript front end framework - more application logic in the browser
+
+Angular and React are two very popular front end JS frameworks, but they are too
+large and complex for this class
+
+Vue.js is probably 3rd most popular - once understood, easier to learn React or Angular
+
+
+Server Code - Java, Python, C#, Ruby PHP
+
+Using Node.js - JavaScript, for servers
+Express.js - web application framework - simplifies common web app tasks
+Node.js is getting more popular and are good for small to medium sites
+
+
+Databases - using PostgreSQL as a cloud service - very similar to other relational databases
+
+
+Web development requires breadth of knowledge - lots of technologies and topics to cover to build a web app!
+
+
+
+
+
+
