@@ -1,0 +1,102 @@
+HTML
+
+- what are the contents of a web page?
+- what elements make up your page?
+
+CSS
+
+- what do those elements look like?
+
+HTML and CSS are not programming languages!
+
+HTML = HyperText Markup Language
+- content of a page, data about a page, and elements that make up a web page
+- elements include text, images, tables, video, links, lists, and other resources
+- data about the elements too
+
+HTML creates types of elements - a paragraph, image, list, etc.
+HTML defines what the content of an element is - text, image, video, etc.
+HTML elements can be nested - a paragraph can contain a list, a list can contain list items, etc.
+
+
+Example HTML Element = <h1>Hello, HTML Tags!</h1>
+
+Tag name - h1
+Contents - the text (Hello, HTML Tags!)
+Open tag - <h1>
+Close tag - </h1>
+
+<!DOCTYPE html> - specifies page is HTML5
+
+<head> .... </head> - contains info about the page - only title is visible
+
+<body> ... </body> - visible page content
+
+
+HTML tags are NOT case sensitive
+Indentation does NOT matter - usually whitespace is ignored
+If a new line is needed, use <p> (paragraph) or <br> (line break)
+Can write HTML elements over multiple lines
+Incorrect HTML will either be ignored or browser will try to correct it (won't crash, but might display weird)
+
+HTML Elements
+
+Start with an opening tag and end with a closing tag
+Can nest tags in other tags
+Tags need to be completely contained in their parent tag
+Each open tg needs a matching closing tag
+
+Paragraphs - enclose text in <p> ... </p>
+Line breaks - single <br> tag
+<b> ... </b> - makes text bold
+<i> ... </i> - makes text italicized
+<u> ... </u> - makes text underlined
+
+h1 through h6 tags create different level headings in a page
+h1 - header text
+h2- sub header
+h3 - sub sub header
+h4 - sub sub sub header
+and so on...
+
+Two types of lists:
+- <ol> ordered/numbered
+- <ul> unordered/bullet points
+
+Nest <li> inside of <ol> or <ul> to create each list element
+
+<a> tag - links
+Specify the link target with href attribute
+Can specify the URL as a relative link, for another page on your own site
+Or full URL (including HTTP or HTTPS) to an external site
+Text inside <a> ... </a> will be link text
+
+HTML elements can have attributes
+- Specifying the URL for a link - href in <a> elements
+- Specifying the source of an image file or image element, or alt-text
+- Adding a unique id to uniquely identify one element on a page
+- Giving many elements the same class - to identify elements that are treated similarly
+- Many others
+
+Images are created with an img tag that has 3 attributes:
+- src attribute for the image file (required)
+- alt attribute for alt-text (for screen-readers/text that is displayed if image is not found.
+Optional but recommended)
+- title attribute that is displayed as a tool-tip when the image is hovered over (optional)
+
+src can be absolute or relative
+Can also specify the height and/or width attributes
+
+<!-- This is a comment -->
+
+Tables
+<table> tag makes a table
+<tr> for a table row
+<th> for header rows
+<td> for table data elements
+
+Bold text for headers is applied by browser as a default style,
+but can override with CSS
+
+
+
